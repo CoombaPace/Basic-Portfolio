@@ -41,6 +41,37 @@ html {
     margin-bottom: 20px;
     margin-left: 175px;
   }
+
+  .menubox {
+    position: relative;
+  }
+
+  .menu {
+    position: absolute;
+    right: 190px;
+    display: inline;
+    font-size: 20px;
+    padding: 11px;
+    color: #777777;
+    text-decoration: none;
+    content: " | ";
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    display: inline;
+    font-size: 20px;
+    padding: 0 5px;
+    content: " | ";
+  }
+
+  a {
+    color: #777777;
+    text-decoration: none;
+  }
   
   section {
     padding: 20px;
