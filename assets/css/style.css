@@ -1,34 +1,104 @@
-.h1 {
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  line-height: 69px;   
-  margin-bottom: ;
-  font-size: 28px;
-  color: rgb(252, 248, 248);
-  text-align: center;
-  background: #4aaaa5;
-  height: 69px;
-  width: 224px;
-  vertical-align: text-top;
+/**
+ * Float Layout Activity
+ **/
+html {
+  height: 100%;
 }
 
-.h2 {
-  color: #4aaaa5;
+  .acrossthepage {
+    height: 90px;
+    background: #fff;
+    margin-bottom: 20px;
+  }
+  .container {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  body {
+    background-image: url("profile.jpg");
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .name {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    line-height: 60px;   
+    text-align: center;
+    font-size: 37px;
+    padding: 15px;
+    color: white;
+    background: #4aaaa5;
+    width: 215px;
+  }
+
+  header {
+    background: #fff;
+    height: 90px;
+    margin-bottom: 20px;
+    margin-left: 175px;
+  }
+  
+  section {
+    padding: 20px;
+    background: #eee;
+    height: 180px;
+    margin-bottom: -50px;
+  }
+
+  #full {
+    overflow: auto;
+    clear: both;
+    color: #4aaaa5;
+    font-size: 38px;
+    background: #ffffff;
+    height: 400px;
+    min-height: 100%;
+    margin-bottom: -50px;
+    flex: 1 0 auto;  
+  }
+
+img {
+  float: left;
+  width: 200px;
+  margin: 10px;
 }
 
-.container {
-  width: 960px;
-  margin: 0 auto;
-}
+  p {
+    color: #777777;
+    font-size: 20px;
+  }
 
-p {
-  color: #777777;
-}
+  
+  #division {
+    background: #dddddd;
+    height: 5px;
+    margin-top: 15px;
+  }
+  
+  .push {
+    height: 50px;
+  }
 
-.box {
-  width
-}
-
-#profile-image {
-  width: 177px;
-  height: 134px;
-}
+  .footer {
+    background: #666666;
+    height: 50px;
+    /* vertical-align: bottom; */
+    text-align: center;
+    font-size: 15px;
+    line-height: 52px;
+    color: #777777;
+    /* left: 0; */
+    /* bottom: 0; */
+    margin-top: auto;
+    border-top: solid 5px #4aaaa5;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
