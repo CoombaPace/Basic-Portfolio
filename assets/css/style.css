@@ -16,7 +16,7 @@ html {
   }
 
   body {
-    background-image: url("profile.jpg");
+    background-image: url("../images/profile.jpg");
     height: 100%;
     margin: 0;
     display: flex;
