@@ -64,9 +64,19 @@ html {
   li {
     display: inline;
     font-size: 20px;
-    padding: 0 5px;
+    padding: -1 5px;
+  }
+
+  #nothing {
+    display: inline;
+    font-size: 20px;
+    padding: -1 5px;
+  }
+
+  li:not(:first-child):before {
     content: " | ";
   }
+
 
   a {
     color: #777777;

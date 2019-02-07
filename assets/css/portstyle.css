@@ -34,8 +34,6 @@ html, {
 
 .a_1 {
   color: #777777;
-  padding: 11px;
-  font-size: 20px;
 }
 
 .header_1 {
@@ -69,6 +67,11 @@ html, {
   display: inline;
   font-size: 20px;
   content: " | ";
+  padding: -1 5px;
+}
+
+.li_1:not(:first-child):before {
+  content: " | ";
 }
 
 .section_1 {
@@ -100,7 +103,7 @@ html, {
   min-height: 100%;
   margin-bottom: -50px;
   flex: 1 0 auto;
-  padding: 11px;  
+  padding: 20px;  
 }
 
 #division_1 {
@@ -153,7 +156,7 @@ span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abb
   
   p { font-size: 1.3em; color: #666; margin-bottom: 16px; }
   
-  a { text-decoration: none; color: #6a91d9; font-size: 20px; font-family: 'Georgia', Times, Times New Roman, serif;}
+  a { text-decoration: none; color: #6a91d9; font-size: 18px; font-family: 'Georgia', Times, Times New Roman, serif;}
   a:hover { text-decoration: underline; }
   
   
