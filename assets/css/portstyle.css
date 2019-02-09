@@ -3,6 +3,7 @@ html, {
   height: 101%;
 }
 
+/* Original elements recreated by adding "_1" to their id/class. */
 .body_1 {
   background-image: url("../images/Alex_Grey-Jewel_Being.jpg");
   height: 100%;
@@ -43,6 +44,9 @@ html, {
   margin-bottom: 20px;
   margin-left: 175px;
 }
+
+/* This menu renders differently as compared to Contact.html and 
+About.html. Mystery for another day.*/
 
 .menubox_1 {
   position: relative;
@@ -116,6 +120,8 @@ html, {
   height: 50px;
 }
 
+/* Footer renders differently compared to style.css.
+Will investigate later. */
 .footer_1 {
   background: #666666;
   height: 61px;
@@ -127,6 +133,7 @@ html, {
   border-top: solid 5px #4aaaa5;
 }
 
+/* Following code is for gallery thumbnails and flyout menu. */
 span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
@@ -152,7 +159,7 @@ span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abb
   table { border-collapse: collapse; border-spacing: 0; }
   img { border: 0; max-width: 100%; }
   
-  h2 { display: block; font-family: 'Georgia', Times, Times New Roman, serif; font-size: 4.2em; line-height: 1.2em; text-shadow: 1px 2px 1px #fff; margin-bottom: 8px; }
+  h2 { display: block; font-family: 'Georgia', Times, 'Times New Roman', serif; font-size: 4.2em; line-height: 1.2em; text-shadow: 1px 2px 1px #fff; margin-bottom: 8px; }
   
   p { font-size: 1.3em; color: #666; margin-bottom: 16px; }
   
@@ -185,7 +192,7 @@ span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abb
   #thumbs li > .meta { 
     float: left;
     overflow: hidden;
-    position: absolute;
+    position: initial;
     z-index: 9999;
     left: 125px;
     height: 85px;
